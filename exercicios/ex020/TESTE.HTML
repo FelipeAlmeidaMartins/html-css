@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            color: black;
+        }
+        div{
+            height: 300px;
+            width: 300px;
+            background-color: blueviolet;
+        }
+
+        div > #teste{
+            display: none;
+
+        }
+
+        div:hover > #teste{
+            display: block;
+        }
+
+        div:active{
+            background-color: brown;
+        }
+
+        div:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>teste lugares</h1>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ab id unde, inventore nemo vel expedita placeat maiores eum ipsum a quae, voluptate sint maxime doloribus deserunt corporis beatae nihil.</p>
+        <p id="teste">vai tomar banho </p>
+    </div>
+    
+</body>
+</html>

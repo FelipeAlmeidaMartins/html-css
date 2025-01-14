@@ -1,0 +1,18 @@
+body{
+    font: arial;
+    font-size: medium;
+}
+
+.especial{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(179, 53, 53);
+}
+
+.especial:visited{
+    color: rgb(240, 26, 186);
+}
+
+.especial:hover{
+    text-decoration: underline;
+}
